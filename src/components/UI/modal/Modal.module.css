@@ -1,0 +1,21 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+}
+
+.modal_content {
+  padding: 15px;
+  border: 1px solid pink;
+  min-width: 300px;
+  background: black;
+}
+
+.modal_active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

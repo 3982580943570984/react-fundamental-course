@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App {
+  width: 600px;
+  
+}
+
+.post {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 600px;
+  padding: 10px;
+  margin-top: 20px;
+  border: 3px solid pink;
+}
+
+.post_content {
+  color: white;
+}
+
+.post_btns {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.post-enter {
+  opacity: 0;
+}
+.post-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+.post-exit {
+  opacity: 1;
+}
+.post-exit-active {
+  opacity: 0;
+  transition: opacity 500ms ease-in;
+}
+
+.page__wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.page {
+  padding: 6px 10px;
+  cursor: pointer;
+  border: 1px solid pink;
+  color: white;
+}
+
+.page__current {
+  background-color: rgb(59, 59, 59);
+  font-weight: bold;
+}
+
+.nav_bar{
+  height: 50px;
+  width: 600px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.nav_bar__links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px auto;
+  color: pink;
+}
